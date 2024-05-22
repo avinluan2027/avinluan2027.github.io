@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--navbar-->
+    <header>
+        <!--nav-->
+        <div class="nav container">
+            <!--logo-->
+            <a href="index.html" class="logo">Beeville Marketplace</a>
+            <a href="company.html" class="logo">About the Company</a>
+            <!--cart-->
+            <i class='bx bxs-cart' id="cart-icon" data-quantity="0"></i>
+            <!--cart2-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!--Content-->
+                <div class="cart-content">
+                </div>
+                    <!--Total-->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price"><i class='bx bxs-droplet' ></i> 0</div>
+                    </div>
+                    <!--deets-->
+                    <form>
+                        <label for="cust_name">Name:</label><br>
+                        <input type="text" id="cust_name" name="cust_name" placeholder="Full Name"><br><br>
+                        <label for="cust_email">Email Address:</label><br>
+                        <input type="text" id="cust_email" name="cust_email" placeholder="honeybee@gmail.com"><br><br>
+                        <label for="cust_addr">DeliveryAddress:</label><br>
+                        <input type="text" id="cust_addr" name="cust_addr" placeholder="Pollen hill, Beeport Zone, Beepanga">
+                    </form>
+                    <!--Button-->
+                    <button type="button" class="btn-buy">Pay</button>
+                    <!--close-->
+                    <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!--prod-->
+    <section class="shop container">
+        <h2 class="section-title">Beeville Exclusives</h2>
+        <h3 class="section-desc">Click on the sho-bee-ng bag to add to cart!</h3>
+        <!--Content-->
+        <div class="shop-content">
+            <!--Box 1-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/ESP.JPG" alt="" class="product-img">
+                <h2 class="product-title">Elite Shoulder Pads</h2>
+                <p class="product-desc"> Every professional athlete is wearing this, it’s a game changer they say.</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 1250.65</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 2-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/cbp.JPG" alt="" class="product-img">
+                <h2 class="product-title">Coconut Backpack</h2>
+                <p> Really heavy but can store a lot of items.</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 980.00</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 3-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/PW.JPG" alt="" class="product-img">
+                <h2 class="product-title">Petal Wand</h2>
+                <p>A device used by the elders of the hidden flower nation, has a secret special ability. 
+                </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 650.45</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 4-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/pb.JPG" alt="" class="product-img">
+                <h2 class="product-title">Petal Belt</h2>
+                <p>Rumors say that if you collect the full petal set, you will get accepted by the flower nation</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 420.25</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 5-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/DM.JPG" alt="" class="product-img">
+                <h2 class="product-title">Diamond Mask</h2>
+                <p>Really hard and rough to the skin but looks amazing.</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 1475.80</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 6-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/BM.JPG" alt="" class="product-img">
+                <h2 class="product-title">Bubble Mask</h2>
+                <p>You can blow bubbles out of it, pretty cool I guess?</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 375.90</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 7-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/HoneyMask.JPG" alt="" class="product-img">
+                <h2 class="product-title">Honey Mask</h2>
+                <p>Even stickier than the Gummy Mask but has a lot of health benefits for your skin</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 620.75</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 8-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/GM.JPG" alt="" class="product-img">
+                <h2 class="product-title">Gummy Mask</h2>
+                <p>Really sticky but tastes really good</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 830.75</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 9-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/CP.JPG" alt="" class="product-img">
+                <h2 class="product-title">Cellphone</h2>
+                <p> Everyone in Beeville has a cellphone, you CANNOT live without one.</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 799.50</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 10-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/FP.JPG" alt="" class="product-img">
+                <h2 class="product-title">Flower Pot</h2>
+                <p> Your standard flower pot for growing flowers</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 125.69</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 11-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/SD.JPG" alt="" class="product-img">
+                <h2 class="product-title">Set of Dice</h2>
+                <p>A powerful set of dice that could control your life. A roller coaster of fortunes and misfortunes.</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 512.99</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 12-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/BS.JPG"  alt="" class="product-img">
+                <h2 class="product-title">Bean Seed</h2>
+                <p>Used with the flower pot to grow a gigantic bean that can manifest a wish.</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 245.87</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 13-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/GL.JPG" alt="" class="product-img">
+                <h2 class="product-title">Glue</h2>
+                <p>Used to stick things together. </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 67.33</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+                 <!--Box 14-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/GS.JPG " alt="" class="product-img">
+                <h2 class="product-title">Garden Sprinkler</h2>
+                <p>The latest model of garden sprinklers.</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 389.42</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+                </div>
+                 <!--Box 15-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/VC.JPG" alt="" class="product-img">
+                <h2 class="product-title">Vaccuum</h2>
+                <p>Your standard farming tool, enough for an average joe.</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 300.50</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+                </div>
+                 <!--Box 16-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/BW.JPG" alt="" class="product-img">
+                <h2 class="product-title">Bubble Wand</h2>
+                <p>Spongebob once used this tool to catch jellyfish. </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 420.80</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 17-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/CB.JPG" alt="" class="product-img">
+                <h2 class="product-title">Collector Boots</h2>
+                <p>Very drippy and can be easily paired with any other clothing </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 720.50</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 18-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/dim.JPG" alt="" class="product-img">
+                <h2 class="product-title">Demon Mask</h2>
+                <p> Releases your inner alpha making you stronger than the average person</p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 1050.25</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 19-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/CBB.JPG" alt="" class="product-img">
+                <h2 class="product-title">Collector Belt Bag</h2>
+                <p>Pairs well with the Collector Boots </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 300.75</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 20-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/DS.JPG" alt="" class="product-img">
+                <h2 class="product-title">Dark Scythe</h2>
+                <p> An extremely rare and expensive one for one tool wielded by the first leader of the fire clan. Has a special dark flame ability.
+                </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 1500.75</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+              <!--Box 21-->
+              <div class="product-box">
+                <!--imgs-->
+                <img src="images/GA.JPG" alt="" class="product-img">
+                <h2 class="product-title">Goofy Mask</h2>
+                <p>Makes you feel a bit skibidi
+                </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 10</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+              <!--Box 22-->
+              <div class="product-box">
+                <!--imgs-->
+                <img src="images/GB.JPG" alt="" class="product-img">
+                <h2 class="product-title">Gummy Boots</h2>
+                <p> Makes a goofy gummy sound when you walk and also releases a gooey substance.
+                </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 850.99</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+              <!--Box 23-->
+              <div class="product-box">
+                <!--imgs-->
+                <img src="images/PD.JPG" alt="" class="product-img">
+                <h2 class="product-title">Porcelain Dipper</h2>
+                <p>  This is only used by the certified rich people of the Beeville population.
+                </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 980.60</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+            <!--Box 24-->
+            <div class="product-box">
+                <!--imgs-->
+                <img src="images/SY.JPG" alt="" class="product-img">
+                <h2 class="product-title">Scythe</h2>
+                <p> A special equipment for the people of the fire clan. Has a special flame ability.
+                </p>
+                <span class="price"><i class='bx bxs-droplet honey-icon' ></i> 750.25</span>
+                <i class='bx bxs-shopping-bag add-cart' ></i>
+            </div>
+        </div>
+    </section>
+    <!--js-->
+    <script src="main.js"></script>
+</body>
+</html>

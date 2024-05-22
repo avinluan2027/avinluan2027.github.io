@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beeville Marketplace Information Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+        
+        body {
+            font-family: "Secular One", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #ffe000;
+            color: #DC6B19;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.1rem;
+             font-weight: 600;
+        }
+
+        nav {
+            background-color: #ffc107;
+            color: #FFFBDA;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #FFFBDA;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #DC6B19;
+        }
+
+        h2 {
+            color: #DC6B19;
+            text-align: center;
+        }
+
+        section {
+            align-items: center;
+            padding: 20px;
+            margin: 20px;
+            background-color: #FFFBDA;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p{
+            text-align: center;
+        }
+
+        footer {
+            background-color: #ffc107;
+            color: #DC6B19;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contributions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .contribution-item {
+            width: 22%;
+            margin: 1%;
+            text-align: center;
+        }
+
+        .contribution-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+            .contributions img {
+                width: 48%;
+                margin: 1%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">Beeville Marketplace</a>
+    <a href="company.html" class="logo">About the Company</a>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#info">About Us</a></li>
+        <li><a href="#franchise">Franchise</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#contributions">Contributions</a></li>
+        <li><a href="#references">References</a></li>
+    </ul>
+</nav>
+
+<section id="info">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We are a trio of super rich entrepreneurs that sell random things that we found in the realm of the Bees.</p>
+        <p>Our company was founded 10 years ago when one of our members, Rick Raniel Ramirez found a portal that transported him to a Roblox simulator game. </p>
+        <p>After that event, we established this company and became super duper rich.</p>
+    </div>
+</section>
+
+<section id="franchise">
+    <div class="container">
+        <h2>Franchise</h2>
+        <p>Open a Beeville Marketplace of your own and become a multi-billionaire in honey!</p>
+        <p>For the cheap price of 15 Million Honey, you get your own Store!</p>
+    </div>
+</section>
+
+<section id="contacts">
+    <div class="container">
+        <h2>Contacts</h2>
+        <p>For more details, contact our members</p>
+        <p>Gherome Sean Artieda (000-0000-000)</p>
+        <p>Alyssandra Diaz Vinluan (123-4567-890)</p>
+        <p>Rick Raniel Ramirez (098-7654-321)</p>
+    </div>
+</section>
+
+<section id="contributions">
+    <div class="container">
+        <h2>Contributions</h2>
+        <div class="contributions">
+            <div class="contribution-item">
+                <img src="images/ALYBEE.JPG" alt="Aly Bee">
+                <p>Contribution/s: Main Page, Checkout Page, Design</p>
+            </div>
+            <div class="contribution-item">
+                <img src="images/BUTOGBEE.JPG" alt="Butog Bee">
+                <p>Tribute to the late and great Butog</p>
+            </div>
+            <div class="contribution-item">
+                <img src="images/RRBEE.JPG" alt="RR Bee">
+                <p>Contribution/s: Checkout Page, Design</p>
+            </div>
+            <div class="contribution-item">
+                <img src="images/GSBee.JPG" alt="GS Bee">
+                <p>Contribution/s: About the Company Page, Design</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="references">
+    <div class="container">
+        <h2>References</h2>
+        <p><a href="https://bee-swarm-simulator.fandom.com/wiki/Bee_Swarm_Simulator_Wiki" target="_blank">Bee Swarm Simulator Wiki</a><br>
+            <a href="https://shopee.ph/" target="_blank">Shopee Website</a>
+            <a href="https://www.amazon.com/" target="_blank">Amazon Website</a><br>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Beeville Marketplace Owners. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
